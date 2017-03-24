@@ -4,3 +4,4 @@ deploy:
     secure: "$HEROKU_API_KEY"
   app:
     master: java-cicd-example
+  language: java
