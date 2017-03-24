@@ -8,7 +8,7 @@ public class TestHello {
     public void testShouldSayHelloWorldWithTwoExclamationMarks() {
         Hello hello = new Hello();
         String result = hello.say();
-        String expected = "Hello world!!";
+        String expected = "Hello world!";
 
         assertEquals(expected, result);
     }

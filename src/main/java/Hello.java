@@ -3,6 +3,6 @@
  */
 public class Hello {
     public String say() {
-        return "Hello world!!";
+        return "Hello world!";
     }
 }
