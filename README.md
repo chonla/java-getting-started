@@ -1,5 +1,7 @@
 # java-getting-started
 
+[![Build Status](https://travis-ci.org/chonla/java-getting-started.svg?branch=master)](https://travis-ci.org/chonla/java-getting-started)
+
 A barebones Java app, which can easily be deployed to Heroku.
 
 This application supports the [Getting Started with Java on Heroku](https://devcenter.heroku.com/articles/getting-started-with-java) article - check it out.
@@ -38,3 +40,11 @@ $ heroku open
 For more information about using Java on Heroku, see these Dev Center articles:
 
 - [Java on Heroku](https://devcenter.heroku.com/categories/java)
+
+## This forked version
+
+This version is converted to Maven project and modified some part to show how JUnit work in CI/CD on Travis-CI and Heroku.
+
+## Result
+
+The project is built and deployed to [Heroku](https://java-cicd-example.herokuapp.com).
